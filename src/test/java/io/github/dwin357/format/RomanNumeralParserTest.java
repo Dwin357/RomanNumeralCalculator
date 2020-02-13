@@ -25,4 +25,40 @@ public class RomanNumeralParserTest {
 
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void xReturns10() {
+        String romanNumeral = "X";
+        int expected = 10;
+
+        int actual = RomanNumeralParser.parse(romanNumeral);
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void viReturns6() {
+        String romanNumeral = "VI";
+        int expected = 6;
+
+        int actual = RomanNumeralParser.parse(romanNumeral);
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void ivReturns4() {
+        String romanNumeral = "IV";
+        int expected = 4;
+
+        int actual = RomanNumeralParser.parse(romanNumeral);
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void mcmxcviReturns1996() {
+        String romanNumeral = "mcmxcvi";
+        int expected = 1996;
+    }
 }

@@ -15,4 +15,14 @@ public class RomanNumeralParserTest {
 
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void iiiReturns3() {
+        String romanNumeral = "III";
+        int expected = 3;
+
+        int actual = RomanNumeralParser.parse(romanNumeral);
+
+        assertEquals(expected, actual);
+    }
 }

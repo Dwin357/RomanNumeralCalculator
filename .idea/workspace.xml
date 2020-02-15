@@ -2,6 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18211949-cbbd-46ae-ab7d-d50b2e7260a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/calculator/SignBasedCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/format/CommandLineArgParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/format/DecimalParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/format/RomanNumeralParserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/model/CalculatorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/model/structs/Calculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/model/structs/RomanNumeral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/model/structs/Sign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/view/DecimalView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/view/NumeralView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/calculator/SignBasedCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/format/CommandLineArgParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/format/DecimalParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/model/WorkingStateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/model/structs/RomanNumeralTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/model/structs/SignTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/operation/OperationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/view/DecimalViewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/view/NumeralViewTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -12,16 +35,29 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/dwin357/format/RomanNumeralParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/dwin357/format/RomanNumeralParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/dwin357/operation/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/dwin357/operation/Operation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/dwin357/state/Sign.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/dwin357/state/Sign.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/dwin357/state/WorkingState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/dwin357/state/WorkingState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/dwin357/state/WorkingStateFactory.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/io/github/dwin357/format/RomanNumeralParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/io/github/dwin357/format/RomanNumeralParserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/io.github.dwin357.format.RomanNumeralParserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/io.github.dwin357.format.RomanNumeralParserTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/io/github/dwin357/state/WorkingStateFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/io.github.dwin357.format.RomanNumeralParserTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/io.github.dwin357.format.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/io.github.dwin357.format.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-io.github.dwin357.format.RomanNumeralParserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-io.github.dwin357.format.RomanNumeralParserTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/io.github.dwin357.format.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-io.github.dwin357.format.RomanNumeralParserTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/format/RomanNumeralParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/format/RomanNumeralParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/operation/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/operation/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/state/Sign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/state/WorkingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/model/WorkingState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/state/WorkingStateFactory.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/format/RomanNumeralParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/format/RomanNumeralParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/operation/OperationTest.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/state/WorkingStateFactoryTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +82,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
@@ -57,7 +93,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XjSmP0K5ebownc4gwXmEaEpkEV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -66,15 +104,28 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.github.dwin357.view" />
       <recent name="io.github.dwin357.format" />
-      <recent name="io.github.dwin357.state" />
+      <recent name="io.github.dwin357.calculator" />
       <recent name="io.github.dwin357.operation" />
+      <recent name="io.github.dwin357.state" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="io.github.dwin357.view" />
+      <recent name="io.github.dwin357.calculator" />
+      <recent name="io.github.dwin357.format" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="io.github.dwin357.model.structs" />
+      <recent name="io.github.dwin357.view" />
+      <recent name="io.github.dwin357.format" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -84,13 +135,13 @@
       <recent name="io.github.dwin357.state" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RomanNumeralParserTest">
-    <configuration name="RomanNumeralParserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.OperationTest.ccc_times_xx">
+    <configuration name="NumeralViewTest.display_parseError" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.format.RomanNumeralParserTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.view.NumeralViewTest.display_parseError&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -105,12 +156,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RomanNumeralParserTest.iReturns1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OperationTest.ccc_times_xx" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.format.RomanNumeralParserTest.iReturns1&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.operation.OperationTest.ccc_times_xx&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -125,12 +176,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RomanNumeralParserTest.ivReturns4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OperationTest.i_plus_i" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.format.RomanNumeralParserTest.ivReturns4&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.operation.OperationTest.i_plus_i&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -145,12 +196,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RomanNumeralParserTest.viReturns6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OperationTest.iii_times_xviii" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.format.RomanNumeralParserTest.viReturns6&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.operation.OperationTest.iii_times_xviii&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -165,12 +216,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RomanNumeralParserTest.xReturns10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OperationTest.vli_minus_vii" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.format.RomanNumeralParserTest.xReturns10&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.operation.OperationTest.vli_minus_vii&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -185,13 +236,37 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="RunAll" type="JUnit" factoryName="JUnit">
+      <useClassPathOnly />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <option name="PARAMETERS" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <patterns>
+        <pattern testClass="^(?!.*IT$).*$" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.RunAll" />
+      <item itemvalue="Gradle.NumeralViewTest.display_parseError" />
+      <item itemvalue="Gradle.OperationTest.i_plus_i" />
+      <item itemvalue="Gradle.OperationTest.vli_minus_vii" />
+      <item itemvalue="Gradle.OperationTest.iii_times_xviii" />
+      <item itemvalue="Gradle.OperationTest.ccc_times_xx" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RomanNumeralParserTest" />
-        <item itemvalue="Gradle.RomanNumeralParserTest.ivReturns4" />
-        <item itemvalue="Gradle.RomanNumeralParserTest.viReturns6" />
-        <item itemvalue="Gradle.RomanNumeralParserTest.xReturns10" />
-        <item itemvalue="Gradle.RomanNumeralParserTest.iReturns1" />
+        <item itemvalue="Gradle.OperationTest.ccc_times_xx" />
+        <item itemvalue="Gradle.OperationTest.iii_times_xviii" />
+        <item itemvalue="Gradle.OperationTest.vli_minus_vii" />
+        <item itemvalue="Gradle.OperationTest.i_plus_i" />
+        <item itemvalue="Gradle.NumeralViewTest.display_parseError" />
       </list>
     </recent_temporary>
   </component>
@@ -206,34 +281,54 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="587" y="156" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1581559768795">
+    <state x="516" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581737003674">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="587" y="156" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1581559768795" />
-    <state width="1487" height="205" key="GridCell.Tab.0.bottom" timestamp="1581563185937">
+    <state x="516" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1533.873@67.27.1533.873" timestamp="1581737003674" />
+    <state x="587" y="156" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1581801786268">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="205" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1581563185937" />
-    <state width="1487" height="205" key="GridCell.Tab.0.center" timestamp="1581563185935">
+    <state x="587" y="156" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1581801786268" />
+    <state x="566" y="246" width="524" height="444" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1581781048929">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="205" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1581563185935" />
-    <state width="1487" height="205" key="GridCell.Tab.0.left" timestamp="1581563185934">
+    <state x="566" y="246" width="524" height="444" key="#com.intellij.ide.util.PackageChooserDialog/67.27.1533.873@67.27.1533.873" timestamp="1581781048929" />
+    <state x="376" y="390" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581783611969">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="205" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1581563185934" />
-    <state width="1487" height="205" key="GridCell.Tab.0.right" timestamp="1581563185936">
+    <state x="376" y="390" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/67.27.1533.873@67.27.1533.873" timestamp="1581783611969" />
+    <state x="586" y="323" width="629" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581781050875">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="205" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1581563185936" />
+    <state x="586" y="323" width="629" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1533.873@67.27.1533.873" timestamp="1581781050875" />
+    <state x="516" y="27" width="615" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581780414224">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="516" y="27" width="615" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1533.873@67.27.1533.873" timestamp="1581780414224" />
+    <state width="1487" height="240" key="GridCell.Tab.0.bottom" timestamp="1581804801605">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="240" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1581804801605" />
+    <state width="1487" height="240" key="GridCell.Tab.0.center" timestamp="1581804801604">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="240" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1581804801604" />
+    <state width="1487" height="240" key="GridCell.Tab.0.left" timestamp="1581804801604">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="240" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1581804801604" />
+    <state width="1487" height="240" key="GridCell.Tab.0.right" timestamp="1581804801604">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="240" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1581804801604" />
     <state x="489" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1581558180233">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="489" y="291" key="com.intellij.ide.util.TipDialog/67.27.1533.873@67.27.1533.873" timestamp="1581558180233" />
-    <state x="515" y="118" width="517" height="650" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581560798985">
+    <state x="515" y="118" width="517" height="650" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581802466271">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="515" y="118" width="517" height="650" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1581560798985" />
+    <state x="515" y="118" width="517" height="650" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1581802466271" />
     <state x="167" y="125" width="1333" height="675" key="dock-window-1" timestamp="1581561208592">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
